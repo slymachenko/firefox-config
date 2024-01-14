@@ -1,0 +1,79 @@
+:root {
+  /* urlbar width limits */
+  --uc-urlbar-width: clamp(540px, 50vw, 800px);
+}
+
+/* remove spacing on the sides of the url bar */
+#customizableui-special-spring2,
+#customizableui-special-spring1 {
+  display: none !important;
+}
+
+/* remove extension label from the url (for welcome screen extension) */
+#urlbar #identity-box.extensionPage #identity-icon-label {
+  display: none !important;
+}
+
+/* remove all buttons except for the back */
+#forward-button {
+  display: none !important;
+}
+#stop-button {
+  display: none !important;
+}
+#reload-button {
+  display: none !important;
+}
+
+/* remove reader mode button */
+#reader-mode-button {
+  display: none !important;
+}
+
+/* remove bookmark button */
+#star-button-box {
+  display: none !important;
+}
+
+/* remove save to pocket button */
+#save-to-pocket-button {
+  display: none !important;
+}
+
+/* remove extensions button */
+#unified-extensions-button {
+  display: none !important;
+}
+
+/* remove gap after pinned tabs */
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab[first-visible-unpinned-tab] {
+  margin-inline-start: 0 !important;
+}
+
+/* remove left spacing from tabs */
+.titlebar-spacer[type="pre-tabs"] {
+  display: none !important;
+}
+
+/* remove borders/shadows/backgrounds */
+#nav-bar {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* transition to oneline */
+@media (min-width: 1000px) {
+  /* move tabs bar over */
+  #TabsToolbar {
+    margin-left: var(--uc-urlbar-width) !important;
+  }
+
+  /* move entire nav bar  */
+  #nav-bar {
+    margin: calc((var(--urlbar-min-height) * -1) - 8px)
+      calc(100vw - var(--uc-urlbar-width)) 0 0 !important;
+  }
+}

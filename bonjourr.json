@@ -1,0 +1,115 @@
+{
+  "about": {
+    "browser": "firefox"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "🌻",
+  "tabtitle": "",
+  "greeting": "User",
+  "pagegap": 1,
+  "pagewidth": 1600,
+  "time": true,
+  "main": true,
+  "usdate": false,
+  "background_blur": 9,
+  "background_bright": 0.81,
+  "background_type": "unsplash",
+  "quicklinks": true,
+  "linkstyle": "text",
+  "linknewtab": false,
+  "linksrow": "12",
+  "linksiqkejk": {
+    "order": 5,
+    "_id": "linksiqkejk",
+    "title": "Schedule",
+    "url": "https://calendar.google.com"
+  },
+  "linksflpcoa": {
+    "order": 4,
+    "_id": "linksflpcoa",
+    "title": "Docs",
+    "url": "https://docs.google.com"
+  },
+  "linksaqcolo": {
+    "order": 3,
+    "_id": "linksaqcolo",
+    "title": "Notion",
+    "url": "https://www.notion.so"
+  },
+  "linksbcoppq": {
+    "order": 2,
+    "_id": "linksbcoppq",
+    "title": "Youtube",
+    "url": "https://www.youtube.com/"
+  },
+  "linkspakgdj": {
+    "order": 1,
+    "_id": "linkspakgdj",
+    "title": "Email",
+    "url": "https://mail.google.com"
+  },
+  "linksfdrhmg": {
+    "order": 0,
+    "_id": "linksfdrhmg",
+    "title": "Github",
+    "url": "https://github.com"
+  },
+  "textShadow": 0.2,
+  "reviewPopup": 8,
+  "cssHeight": 80,
+  "css": "",
+  "hide": {
+    "settingsicon": true,
+    "date": false,
+    "weatherdesc": false,
+    "weathericon": true,
+    "clock": false
+  },
+  "clock": {
+    "size": 1.25,
+    "ampm": false,
+    "analog": false,
+    "seconds": false,
+    "face": "none",
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "every": "hour",
+    "collection": "eS1hL7NKvUk"
+  },
+  "weather": {
+    "unit": "metric",
+    "moreinfo": "windy",
+    "forecast": "auto",
+    "temperature": "both",
+    "geolocation": "approximate"
+  },
+  "searchbar": {
+    "on": true,
+    "opacity": 0.2,
+    "newtab": false,
+    "suggestions": true,
+    "engine": "ddg",
+    "request": "",
+    "placeholder": "Search"
+  },
+  "font": {
+    "url": "",
+    "size": "14",
+    "family": "",
+    "availWeights": [],
+    "weight": "300"
+  },
+  "move": {
+    "selection": "single",
+    "layouts": {
+      "single": {
+        "grid": [["time"], ["main"], ["searchbar"], ["quicklinks"]],
+        "items": {}
+      }
+    }
+  }
+}
