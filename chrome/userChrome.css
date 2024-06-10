@@ -1,6 +1,6 @@
 :root {
   /* urlbar width limits */
-  --uc-urlbar-width: clamp(540px, 50vw, 800px);
+  --uc-urlbar-width: clamp(500px, 35vw, 800px);
 }
 
 /* remove spacing on the sides of the url bar */
@@ -14,34 +14,13 @@
   display: none !important;
 }
 
-/* remove all buttons except for the back */
+/* remove forward page button */
 #forward-button {
-  display: none !important;
-}
-#stop-button {
-  display: none !important;
-}
-#reload-button {
-  display: none !important;
-}
-
-/* remove reader mode button */
-#reader-mode-button {
-  display: none !important;
-}
-
-/* remove bookmark button */
-#star-button-box {
   display: none !important;
 }
 
 /* remove save to pocket button */
 #save-to-pocket-button {
-  display: none !important;
-}
-
-/* remove extensions button */
-#unified-extensions-button {
   display: none !important;
 }
 
