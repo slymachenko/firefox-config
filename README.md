@@ -38,6 +38,8 @@ This will set it up as the start page when opening your browser.
 
 To make it work for new tabs see ["PSA: How to set a custom new tab page in Firefox."](https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set_a_custom_new_tab_page_in_firefox/)
 
+To update links modify the `data` object in `/startpage/src/js/links.js`
+
 ## License
 
 See [LICENSE](LICENSE).
