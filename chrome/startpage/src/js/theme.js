@@ -4,61 +4,71 @@ let currentIndex =
 currentIndex = parseInt(currentIndex);
 
 const images = [
-  "cover1.webp",
-  "cover2.webp",
-  "cover3.webp",
   "cover4.gif",
-  "cover5.gif",
-  "cover6.gif",
+  "tokyo-night.gif",
+  "ciri.webp",
+  "nebula.webp",
+  "retro.webp",
+  "ruins.webp",
+  "statue.webp",
 ];
+
 const colorSets = [
   {
-    "--text-color": "#c0caf5",
-    "--hover-color": "#bb9af7",
-    "--accent-color": "#7aa2f7",
-    "--accent-color-2": "#f7768e",
-    "--background-color": "#1a1b26",
-  },
-  {
-    "--text-color": "#9fadc6",
-    "--hover-color": "#9B5856",
-    "--accent-color": "#28725A",
-    "--accent-color-2": "#D2C7CB",
-    "--background-color": "#15191d",
-  },
-  {
-    "--text-color": "#c0caf5",
-    "--hover-color": "#e0af68",
-    "--accent-color": "#7aa2f7",
-    "--accent-color-2": "#bb9af7",
-    "--background-color": "#1a1b26",
-  },
-  {
-    // Catppuccin color scheme
+    // catppuccin.gif color scheme
     "--text-color": "#cdd6f4",
     "--hover-color": "#89b4fa",
-    "--prompt-color": "#a6e3a1",
     "--accent-color": "#b4befe",
     "--accent-color-2": "#f38ba8",
     "--background-color": "#1e1e2e",
   },
   {
-    // Tokyo Night colorscheme
+    // tokyo-night.gif colorscheme
     "--text-color": "#c0caf5",
     "--hover-color": "#bb9af7",
-    "--prompt-color": "#9ece6a",
     "--accent-color": "#7aa2f7",
     "--accent-color-2": "#f7768e",
     "--background-color": "#1a1b26",
   },
   {
-    // Material You Color Scheme
-    "--text-color": "#dee3e6",
-    "--hover-color": "#dc8add",
-    "--prompt-color": "#a6e3a1",
-    "--accent-color": "#86d1e9",
-    "--accent-color-2": "#b2cad3",
-    "--background-color": "#0f1416",
+    // ciri tokyo-night.gif colorscheme
+    "--text-color": "#eaf3ff",
+    "--hover-color": "#b55e6b",
+    "--accent-color": "#356f4b",
+    "--accent-color-2": "#41973f",
+    "--background-color": "#1a1b26",
+  },
+  {
+    // nebula tokyo-night.gif colorscheme
+    "--text-color": "#c0caf5",
+    "--hover-color": "#bb9af7",
+    "--accent-color": "#7aa2f7",
+    "--accent-color-2": "#f7768e",
+    "--background-color": "#1a1b26",
+  },
+  {
+    // retro tokyo-night.gif colorscheme
+    "--text-color": "#c0caf5",
+    "--hover-color": "#bb9af7",
+    "--accent-color": "#7aa2f7",
+    "--accent-color-2": "#f7768e",
+    "--background-color": "#1a1b26",
+  },
+  {
+    // ruins tokyo-night.gif colorscheme
+    "--text-color": "#4f778b",
+    "--hover-color": "#ffffff",
+    "--accent-color": "#84b9cc",
+    "--accent-color-2": "#386547",
+    "--background-color": "#1a1b26",
+  },
+  {
+    // statue tokyo-night.gif colorscheme
+    "--text-color": "#c0caf5",
+    "--hover-color": "#bb9af7",
+    "--accent-color": "#7aa2f7",
+    "--accent-color-2": "#f7768e",
+    "--background-color": "#1a1b26",
   },
 ];
 
