@@ -4,7 +4,7 @@ let currentIndex =
 currentIndex = parseInt(currentIndex);
 
 const images = [
-  "cover4.gif",
+  "catppuccin.gif",
   "tokyo-night.gif",
   "ciri.webp",
   "nebula.webp",
